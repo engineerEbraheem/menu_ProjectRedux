@@ -1,0 +1,153 @@
+:root {
+  --main-color: #b45b35;
+  --secondary-color: #224f61;
+
+  --body-background: #f8f8f8;
+  --section-background: #f6f6f6;
+  --sub-color-text: #8c8c8c;
+}
+
+body {
+  font-family: "Cairo";
+
+}
+
+
+@font-face {
+
+  src: url("Cairo-Medium.ttf");
+  font-family: "Cairo";
+}
+
+
+.navLogo {
+  width: 100px;
+}
+
+.cartLinkBtn {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  padding: 10px;
+}
+
+.cartCount {
+  height: 15px;
+  width: 15px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(20%, 20%);
+  font-size: 12px;
+}
+
+.headDiv {
+
+  border-bottom: 4px solid var(--main-color);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px 20px;
+
+}
+
+.headTitle {
+  color: var(--secondary-color);
+}
+
+
+
+
+
+.btnCat {
+  border-color: var(--main-color);
+  color: var(--main-color);
+}
+
+.btn-check:hover+.btn {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+  color: white;
+}
+
+.btn-check:checked+.btn {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+/* food card component style */
+
+.cardDiv {
+  width: 100%;
+  height: 180px;
+  box-shadow: 2px 2px 6px -3px;
+
+}
+
+
+.titleDiv {
+
+  height: 15%;
+}
+
+.itemTitle {
+
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.itemPrice {
+
+  color: var(--main-color);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.item-description {
+  color: var(--sub-color-text);
+  height: 55%;
+}
+
+
+
+.addCartBtn {
+  background-color: rgb(24 106 59);
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  border-color: darkgrey;
+  padding: 10px;
+
+}
+
+.addCartBtn:hover {
+  background-color: white;
+  color: rgb(24 106 59);
+  font-weight: bold;
+  border-color: rgb(24 106 59);
+}
+
+.quantityInput {
+
+  width: 50%;
+}
+
+.removeCart {
+  font-size: 17px;
+  font-weight: bold;
+
+}
+
+.removeCart:hover {
+  background-color: white;
+  color: #dc3545;
+
+}
+
+.cartItemBody {
+  border-bottom: 1px solid rgb(149, 149, 149);
+  padding-bottom: 5px;
+
+}

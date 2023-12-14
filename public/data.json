@@ -1,0 +1,19 @@
+[
+
+    {"id":1, "title":" بيض عيون", "description":" فطار 1  فطار 1  فطار 1  فطار 1  فطار 1  فطار 1  فطار 1  ", "price":500, "img":"images/imgBreakfast/thumbnails/egg-200.jpg", "category":"الافطار"},
+    {"id":2, "title":" شاي", "description":"  فطار 2 فطار 2 فطار 2 فطار 2 فطار 2فطار 2  فطار 2", "price":"100  ", "img":"images/imgBreakfast/thumbnails/tea-200.jpg", "category":"الافطار"},
+    {"id":3, "title":" ساندوتش جبن", "description":" فطار 3 فطار 3 فطار 3 فطار 3 فطار 3 فطار 3 فطار 3 فطار 3", "price":500  , "img":"images/imgBreakfast/thumbnails/cheeseSandwich-200.jpg", "category":"الافطار"},
+    {"id":4, "title":" برجر", "description":"فطار 4 فطار 4 فطار 4 فطار 4فطار 4 فطار 4 فطار 4 فطار 4 فطار 4 فطار 4", "price":1500, "img":"images/imgBreakfast/thumbnails/burgers-200.jpg", "category":"الافطار"},
+    {"id":5, "title":" خبز", "description":"  فطار 5 فطار 5 فطار 5 فطار 5 فطار 5فطار 5 فطار 5فطار 5فطار 5", "price":200, "img":"images/imgBreakfast/thumbnails/bread-200.jpg", "category":"الافطار"},
+    {"id":6, "title":" بطاطا مقلية", "description":" غداء 1غداء 1غداء 1غداء 1غداء 1غداء 1 غداء 1 غداء 1 غداء 1غداء 1 غداء 1", "price":1000, "img":"images/imgLunch/thumbnails/fries-200.jpg", "category":"غداء"},
+    {"id":7, "title":" سلطه", "description":" غداء 2 غداء 2 غداء 2 غداء 2غداء 2غداء 2 غداء 2", "price":1000, "img":"images/imgLunch/thumbnails/tabouleh-200.jpg", "category":"غداء"},
+    {"id":8, "title":" برست دجاج", "description":"  غداء 3 غداء 3غداء 3غداء 3غداء 3غداء 3غداء 3غداء 3 غداء 3", "price":3000, "img":"images/imgLunch/thumbnails/chicken-200.jpg", "category":"غداء"},
+    {"id":9, "title":" سمك", "description":" غداء 4 غداء 4 غداء 4غداء 4غداء 4غداء 4غداء 4 غداء 4غداء 4 ", "price":5000, "img":"images/imgLunch/thumbnails/fish-200.jpg", "category":"غداء"},
+    {"id":10, "title":"شوارما", "description":" عشاء 1 عشاء 1 عشاء 1 عشاء 1 عشاء 1عشاء 1عشاء 1عشاء 1", "price":2000, "img":"images/imgDinner/thumbnails/shoarma-200.jpg", "category":"عشاء"},
+    {"id":11, "title":"خبز", "description":" عشاء 2 عشاء 2 عشاء 2عشاء 2 عشاء 2عشاء 2عشاء 2عشاء 2عشاء 2عشاء 2عشاء 2", "price":200, "img":"images/imgDinner/thumbnails/bread-200.jpg", "category":"عشاء"},
+    {"id":12, "title":" بيض عيون", "description":" عشاء 3 عشاء 3 عشاء 3 عشاء 3عشاء 3 عشاء 3 عشاء 3عشاء 3عشاء 3عشاء 3عشاء 3عشاء 3 ", "price":500, "img":"images/imgDinner/thumbnails/egg-200.jpg", "category":"عشاء"}
+
+
+
+
+]
