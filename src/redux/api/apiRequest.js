@@ -3,7 +3,7 @@ import axios from "axios";
 
 // action to get all food data and all categorys :
 export const getAllMenuData = createAsyncThunk("menuData/getAll", async () => {
-  const response = await axios.get("/data.json");
+  const response = await axios.get("data.json");
 
   const allmenuData = response.data;
 
@@ -23,7 +23,7 @@ export const filterByCategory = createAsyncThunk(
   "menuData/filterCat",
   async (catSelected) => {
 
-    const response = await axios.get("/data.json");
+    const response = await axios.get("data.json");
 
     const allData = response.data;
 
@@ -43,7 +43,7 @@ export const filterByCategory = createAsyncThunk(
 export const filterBySearch = createAsyncThunk(
   "menuData/searchTitle",
   async (word) => {
-    const response = await axios.get("/data.json");
+    const response = await axios.get("data.json");
 
     const allData = response.data;
 
