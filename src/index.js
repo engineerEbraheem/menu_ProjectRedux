@@ -11,11 +11,8 @@ import { menuStoreData } from "./redux/store/menuStore";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <HashRouter>
-
-
     <Provider store={menuStoreData}>
       <App />
     </Provider>
   </HashRouter>
-
 );
