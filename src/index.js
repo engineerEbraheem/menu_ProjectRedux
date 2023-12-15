@@ -4,15 +4,18 @@ import App from "./App";
 import "bootstrap/dist/css/bootstrap.rtl.min.css";
 
 import "./index.css";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import { menuStoreData } from "./redux/store/menuStore";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <HashRouter>
+
+
     <Provider store={menuStoreData}>
       <App />
     </Provider>
-  </BrowserRouter>
+  </HashRouter>
+
 );
