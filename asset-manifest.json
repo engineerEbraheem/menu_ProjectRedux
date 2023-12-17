@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/menu_ProjectRedux/static/css/main.d298b2f0.css",
+    "main.js": "/menu_ProjectRedux/static/js/main.ce7daebb.js",
+    "static/media/Cairo-Medium.ttf": "/menu_ProjectRedux/static/media/Cairo-Medium.6370a01bd2091982922d.ttf",
+    "index.html": "/menu_ProjectRedux/index.html",
+    "main.d298b2f0.css.map": "/menu_ProjectRedux/static/css/main.d298b2f0.css.map",
+    "main.ce7daebb.js.map": "/menu_ProjectRedux/static/js/main.ce7daebb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d298b2f0.css",
+    "static/js/main.ce7daebb.js"
+  ]
+}
